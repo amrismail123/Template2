@@ -1,0 +1,458 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 3300px;
+}
+.container-header{
+    width: 90%;
+}
+@media (min-width: 1200px){
+    .container-header{
+        width: 90%;
+    }
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    flex-wrap: wrap;
+}
+.list1{
+    list-style: none;
+    margin-top: 20px;
+}
+.list1 ,li ,a{
+    text-decoration: none;
+    display: inline;
+    padding-left:25px ;
+    font-size: 20px;
+    color: #7b5244;
+    font-weight: bold;
+}
+.list2 li i{
+    color: #000;
+}
+.icons{
+    text-align: right;
+}
+.list2{
+    list-style: none;
+    font-size: 20px;
+}
+.container-header ,.header1,nav{
+    text-align: center;
+}
+.header1 img{
+    margin-left: 165px;
+}
+.list2 , i{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.container-img{
+    width: 80%;
+    margin: auto;
+}
+@media (min-width: 1200px){
+.container-img{
+    width: 80%;
+    margin: auto;
+}
+.container-items{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+}
+.title1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 50px;
+}
+.p1{
+    width: 80px;
+    height: 2px;
+    background-color: #7b5244;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.p1:hover{
+    transform: scale(3,1);
+    transition: 1s;
+}
+.container-items{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.chairs{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px 20px;
+    
+}
+.chair1{
+    position: relative;
+}
+.chair1 .icon {
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.chair1:hover .icon{
+    visibility: visible;
+    opacity: 1;
+}
+.chair2{
+    position: relative;
+}
+.chair2 .icon {
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.chair2:hover .icon{
+    visibility: visible;
+    opacity: 1;
+}
+.chair3{
+    position: relative;
+}
+.chair3 .icon {
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.chair3:hover .icon{
+    visibility: visible;
+    opacity: 1;
+}
+.chair4{
+    position: relative;
+}
+.chair4 .icon {
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.chair4:hover .icon{
+    visibility: visible;
+    opacity: 1;
+}
+.title1-chair{
+    font-weight:200;
+    color: grey;
+}
+
+.container-img1{
+    position: relative;
+    
+}
+.discount-title1{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.container-img2{
+    position: relative;
+}
+.discount-title2{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.h3-discount{
+    font-size: 23px;
+    color: #7b5244;
+}
+.h4-discount{
+    font-size: 22px;
+}
+.h3-discount2{
+    font-size: 23px;
+    color: #7b5244;
+}
+.h4-discount2{
+    font-size: 22px;
+}
+.container-discount{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f7f3ef;
+    flex-wrap: wrap;
+}
+@media(min-width: 1200px){
+    .container-discount{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+.discount-paragraph{
+    position: relative;
+    width: 700px;
+    height: 250px;
+}
+.i-discount{
+    position: absolute;
+    top: 0;
+    left:  0;
+    font-size: 50px;
+    color: #7b5244;
+}
+.discount-title3{
+    display: block;
+    padding-left: 75px;
+    font-weight: bold;
+    font-size: 28px;
+}
+.discount-p1{
+    line-height: 28px;
+    padding: 15px 0px;
+    font-size: 20px;
+}
+.discount-title4{
+    padding-left: 75px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container-img1:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.container-img2:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.section3{
+    margin-bottom: 50px;
+}
+.container-icon-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+.iconn1{
+    background-image: url(../images/service-icon.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center 5px;
+    transition: 0.5s;
+}
+.iconn1:hover{
+    background-position: center -85px;
+}
+.titlle1{
+    text-align: center;
+}
+.h55{
+    opacity: 0.6;
+    font-size: 18px;
+}
+.iconn2{
+    background-image: url(../images/service-icon.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center -180px;
+    transition: 0.5s;
+}
+.iconn2:hover{
+    background-position: center -270px;
+}
+.iconn3{
+    background-image: url(../images/service-icon.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center -362px;
+    transition: 0.5s;
+}
+.iconn3:hover{
+    background-position: center -453px;
+}
+.iconn4{
+    background-image: url(../images/service-icon.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center -548px;
+    transition: 0.5s;
+}
+.iconn4:hover{
+    background-position: center -640px;
+}
+.iconn5{
+    background-image: url(../images/service-icon.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center -733px;
+    transition: 0.5s;
+}
+.iconn5:hover{
+    background-position: center -825px;
+}
+.div1-icon-title{
+    width: 280px;
+    border-right: 1px solid #7b5244;    
+}
+.div2-icon-title{
+    width: 280px;
+    border-right: 1px solid #7b5244; 
+}
+.div3-icon-title{
+    width: 280px;
+    border-right: 1px solid #7b5244; 
+}
+.div4-icon-title{
+    width: 280px;
+    border-right: 1px solid #7b5244; 
+}
+.div5-icon-title{
+    width: 280px; 
+}
+.p2{
+    width: 1400px;
+    height: 1px;
+    background-color: #7b5244;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    opacity: 0.6;
+}
+.section4{
+    margin-bottom: 90px;
+}
+.title1-featured{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 35px;
+}
+.p1-featured{
+    width: 100px;
+    height: 2px;
+    background-color: #7b5244;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.p1-featured:hover{
+    transform: scale(1.8,1);
+    transition: 0.5s;
+}
+.list-products{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.list-products ul li{
+    color: black;
+    opacity: 0.8;
+}
+.parent-featured{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media (min-width: 1200px){
+    .parent-featured{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+.front-featured{
+    position: relative;
+}
+.back-featured{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scalex(0);
+    opacity: 0.9;
+    transition:  0.2s;
+}
+.front-featured:hover .back-featured{
+    transform: scalex(1);
+}
+.back-featured ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.back-featured ul li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #5c3b30;
+    opacity: 0.8;
+}
+.list-featured li i{
+    color: rgb(2, 0, 0);
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+.product-info , i{
+    color: rgb(185, 185, 24);
+}
+span{
+    display: block;
+    margin-left: 20px;
+}
+.featured-title{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
